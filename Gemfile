@@ -61,3 +61,6 @@ gem "jquery-rails", "~> 4.3"
 
 # Added at 2018-04-06 23:08:50 -0700 by jasmineanderson:
 gem "bootstrap", "~> 4.0"
+
+# Added at 2018-04-06 23:51:35 -0700 by jasmineanderson:
+gem "devise", "~> 4.4"
