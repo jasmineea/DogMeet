@@ -64,3 +64,6 @@ gem "bootstrap", "~> 4.0"
 
 # Added at 2018-04-06 23:51:35 -0700 by jasmineanderson:
 gem "devise", "~> 4.4"
+
+# Added at 2018-04-06 23:59:38 -0700 by jasmineanderson:
+gem "bootstrap_form", "~> 2.7"
