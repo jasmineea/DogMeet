@@ -58,3 +58,6 @@ gem "bootstrap-sass", "~> 3.3"
 
 # Added at 2018-04-06 22:52:22 -0700 by jasmineanderson:
 gem "jquery-rails", "~> 4.3"
+
+# Added at 2018-04-06 23:08:50 -0700 by jasmineanderson:
+gem "bootstrap", "~> 4.0"
