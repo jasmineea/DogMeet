@@ -37,13 +37,14 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '~> 2.13'
-  gem 'selenium-webdriver'
-  gem 'factory_girl_rails', '4.2.1'
-  gem 'rails-controller-testing'
- gem 'headless'
- gem 'poltergeist'
- gem 'database_cleaner'
+
+gem 'rspec-rails', '~> 3.7'
+gem 'factory_girl_rails'
+gem 'rails-controller-testing'
+gem 'headless'
+gem 'capybara'
+gem 'poltergeist'
+gem 'database_cleaner'
 end
 
 group :development do
@@ -73,5 +74,3 @@ gem "devise", "~> 4.4"
 # Added at 2018-04-06 23:59:38 -0700 by jasmineanderson:
 gem "bootstrap_form", "~> 2.7"
 
-# Added at 2018-04-11 18:13:08 -0700 by jasmineanderson:
-gem "rspec-rails", "~> 3.7"
